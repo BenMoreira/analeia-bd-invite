@@ -43,32 +43,32 @@ function App() {
             </div>
 
             {spanish ? 
-              <div className=''>Hay un bebé en Camino...</div> :
+              <div className='font-bold text-4xl'>Fiesta de Primer Cumpleaños</div> :
               <div className='font-bold text-4xl'>First Birthday Party</div>
             }
 
             {spanish ?
-              <div className=''>Que crees que es?</div> :
+              <div className='text-2xl'>Ven con nosotros a celebrar</div> :
               <div className='text-2xl'>Join us to celebrate</div>
             }
 
             {spanish ? 
-              <div className=''>Niño</div> :
+              <div className='font-bold text-3xl'>Analeia Jade Torres</div> :
               <div className='font-bold text-3xl'>Analeia Jade Torres</div>
             }
 
             {spanish ?
-              <div>O</div> :
+              <div className='text-2xl'>Sábado, Octubre 5 a las 0:00 PM</div> :
               <div className='text-2xl'>Saturday, October 5th at 0:00 PM</div>
             }
 
             {spanish ?
-              <div>Niña?</div> :
+              <div className='text-2xl'>3896 Egypt Rd., Snellville, Georgia, 30039</div> :
               <div className='text-2xl'>3896 Egypt Rd., Snellville, Georgia, 30039</div>
             }
 
             {spanish ?
-              <div className=''>Ven y descubrelo en la</div> :
+              <div className='text-2xl'>Amazon Link</div> :
               <div className='text-2xl'>Amazon Link</div>
             }
 
