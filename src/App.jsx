@@ -43,13 +43,18 @@ function App() {
             </div>
 
             {spanish ? 
-              <div className='font-bold text-3xl'>¡Estás invitado a la Primera Fiesta</div> :
-              <div className='font-bold text-4xl'>You're invited to Analeia's</div>
+              <div className='font-bold text-3xl'>¡Estás invitado a la Primera</div> :
+              <div className='font-bold text-3xl'>You're invited to Analeia's</div>
             }
 
             {spanish ? 
-              <div className='font-bold text-3xl'>de Cumpleaños de Analeia!</div> :
-              <div className='font-bold text-4xl'>1st Birthday Party!</div>
+              <div className='font-bold text-3xl'>Fiesta de</div> :
+              <div className='hidden'></div>
+            }
+
+            {spanish ? 
+              <div className='font-bold text-3xl'>Cumpleaños de Analeia!</div> :
+              <div className='font-bold text-3xl'>1st Birthday Party!</div>
             }
 
             {spanish ?
@@ -73,8 +78,13 @@ function App() {
             }
 
             {spanish ?
-              <div className='text-2xl'>Amazon Link</div> :
-              <div className='text-2xl'>Amazon Link</div>
+              <div className='text-2xl'>¿No sabes qué regalarle?</div> :
+              <div className='text-2xl'>Don't know what to get her?</div>
+            }
+
+            {spanish ?
+              <div className='text-2xl'>Mira aquí: <a className='cursor font-bold underline text-blue-600' href='https://www.amazon.com/hz/wishlist/ls/H3T2MBHXXZHC?ref_=wl_share'>Amazon</a></div> :
+              <div className='text-2xl'>Check here: <a className='cursor font-bold underline text-blue-600' href='https://www.amazon.com/hz/wishlist/ls/H3T2MBHXXZHC?ref_=wl_share'>Amazon</a></div>
             }
 
             <div className='w-full flex flex-col items-end'>
