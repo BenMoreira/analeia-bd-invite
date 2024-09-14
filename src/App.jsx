@@ -43,7 +43,7 @@ function App() {
             </div>
 
             {spanish ? 
-              <div className='font-bold text-4xl'>Fiesta de Primer Cumpleaños</div> :
+              <div className='font-bold text-3xl'>Fiesta de Primer Cumpleaños</div> :
               <div className='font-bold text-4xl'>First Birthday Party</div>
             }
 
