@@ -43,8 +43,13 @@ function App() {
             </div>
 
             {spanish ? 
-              <div className='font-bold text-3xl'>Fiesta de Primer Cumpleaños</div> :
-              <div className='font-bold text-4xl'>First Birthday Party</div>
+              <div className='font-bold text-3xl'>¡Estás invitado a la Primera Fiesta</div> :
+              <div className='font-bold text-4xl'>You're invited to Analeia's</div>
+            }
+
+            {spanish ? 
+              <div className='font-bold text-3xl'>de Cumpleaños de Analeia!</div> :
+              <div className='font-bold text-4xl'>1st Birthday Party!</div>
             }
 
             {spanish ?
