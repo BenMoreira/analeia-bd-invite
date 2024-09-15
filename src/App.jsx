@@ -9,17 +9,23 @@ function App() {
   const [popup, setPopup] = useState(true);
   const [spanish, setSpanish] = useState(false);
 
+  let audio = new Audio("/blueysong.mp3");
+
+  const start = () => {
+    audio.play();
+  }
+
   return (
     <>
       { popup ?
         <div className='w-full min-h-screen bg-black'>
           <div className='w-full h-screen flex flex-col justify-center items-center gap-8'>
-            <button onClick={() => setPopup(false)}
+            <button onClick={() => {setPopup(false); start()}}
             className='rounded-lg px-[3.15rem] py-4 text-xl bg-blue-400'>
               English
             </button>
 
-            <button onClick={() => {setPopup(false); setSpanish(true)}}
+            <button onClick={() => {setPopup(false); setSpanish(true); start()}}
             className='rounded-lg px-12 py-4 text-xl bg-blue-400'>
               Español
             </button>
