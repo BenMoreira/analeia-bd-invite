@@ -74,8 +74,8 @@ function App() {
             }
 
             {spanish ?
-              <div className='text-xl'>Sábado, Octubre 5 a las 0:00 PM</div> :
-              <div className='text-xl'>Saturday, October 5th at 0:00 PM</div>
+              <div className='text-xl'>Sábado, Octubre 5 a las 5:00 PM</div> :
+              <div className='text-xl'>Saturday, October 5th at 5:00 PM</div>
             }
 
             {spanish ?
