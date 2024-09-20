@@ -84,13 +84,13 @@ function App() {
             }
 
             {spanish ?
-              <div className='text-xl'>¿No sabes qué regalarle?</div> :
-              <div className='text-xl'>Don't know what to get her?</div>
+              <div className='text-xl'>¿Quieres comprarle algo pero</div> :
+              <div className='text-xl'>Want to get her something but</div>
             }
 
             {spanish ?
-              <div className='text-xl'>Mira aquí: <a className='cursor font-bold underline text-blue-600' href='https://www.amazon.com/hz/wishlist/ls/H3T2MBHXXZHC?ref_=wl_share'>Amazon</a></div> :
-              <div className='text-xl'>Check here: <a className='cursor font-bold underline text-blue-600' href='https://www.amazon.com/hz/wishlist/ls/H3T2MBHXXZHC?ref_=wl_share'>Amazon</a></div>
+              <div className='text-xl'>no sabes que? Mira aquí: <a className='cursor font-bold underline text-blue-600' href='https://www.amazon.com/hz/wishlist/ls/H3T2MBHXXZHC?ref_=wl_share'>Amazon</a></div> :
+              <div className='text-xl'>Don't know what? Check here: <a className='cursor font-bold underline text-blue-600' href='https://www.amazon.com/hz/wishlist/ls/H3T2MBHXXZHC?ref_=wl_share'>Amazon</a></div>
             }
 
             <div className='w-full flex flex-col items-end'>
